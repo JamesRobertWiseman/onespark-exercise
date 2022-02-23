@@ -1,0 +1,62 @@
+/**
+ * Setup all the variables for the theme 
+ * (As pulled from https://www.onespark.co.za/)
+ */
+
+:root {
+  --10pxInRem: 0.625rem;
+  --12pxInRem: 0.750rem;
+  --14pxInRem: 0.875rem;
+  --16pxInRem: 1rem;
+  --18pxInRem: 1.125rem;
+  --20pxInRem: 1.25rem;
+  --22pxInRem: 1.375rem;
+  --24pxInRem: 1.5rem;
+  --25pxInRem: 1.5625rem;
+  --26pxInRem: 1.625rem;
+  --28pxInRem: 1.75rem;
+  --32pxInRem: 2rem;
+  --48pxInRem: 3rem;
+  --4pxlRem: 0.250rem;
+  --56pxInRem: 3.5rem;
+  --5pxInRem: 0.3125rem;
+  --64pxInRem: 4rem;
+  --6pxInRem: 0.375rem;
+  --8pxInRem: 0.5rem;
+  --borderBlack: 1px solid var(--black);
+  --borderWhite: 1px solid var(--white);
+  --boxShadowBlack: 0 -2px 16px rgba(0,0,0,0.08);
+  --boxShadowSparkingBlue: 0px 4px 16px rgba(0,219,229,0.24),0px 8px 16px rgba(0,219,229,0.2);
+  --breakpointDesktop: 1048px;
+  --breakpointMobile: 640px;
+  --breakpointNavbar: 780px;
+  --fontFamily: "Khula",sans-serif;
+  --fontFamilyNanum: "Nanum Pen Script",sans-serif;
+  --fontWeightBold700: 700;
+  --fontWeightExtraBold800: 800;
+  --fontWeightLight300: 300;
+  --fontWeightRegular400: 400;
+  --fontWeightSemiBold600: 600;
+  --gray1: #333;
+  --gray1WithOpacity: rgba(51,51,51,0.8);
+  --gray2: #4f4f4f;
+  --gray2WithOpacity: rgba(79,79,79,0.8);
+  --gray3: #828282;
+  --gray4: #bdbdbd;
+  --gray5: #fafafa;
+  --gray6: #e5e5e5;
+  --gray7: #e0e0e0;
+  --gray8: #c4c4c4;
+  --gray9: #f2f2f2;
+  --loadingTransition: spin 0.5s linear infinite;
+  --sparklingBlue: #00dbe5;
+  --sparklingBlueHover: #31b2c9;
+  --red: #991a1a;
+  --spinnerRotationDelay: 0.5s;
+  --text: #1e1e1e;
+  --transitionDelay: 0.2s;
+  --transitionEaseIn: var(--transitionDelay) ease-in;
+  --transitionLinear: var(--transitionDelay) linear;
+  --black: #1e1e1e;
+  --white: #fff
+}

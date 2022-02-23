@@ -1,7 +1,8 @@
 {
   "name": "onespark-excercise",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +10,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^6.2.1",
+    "classnames": "^2.3.1",
     "next": "12.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.27.1",
+    "sass": "^1.49.8"
   },
   "devDependencies": {
     "@types/node": "17.0.19",
