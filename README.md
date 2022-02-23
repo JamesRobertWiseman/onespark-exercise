@@ -1,4 +1,4 @@
-# OneSpark Excercise
+# OneSpark Exercise
 
 ## Getting Started
 
